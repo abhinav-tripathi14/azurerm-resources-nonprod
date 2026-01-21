@@ -13,7 +13,7 @@ provider "azurerm" {
 
 
 variable "prefix" {
-  default = "tfvmex"
+  default = "tfvmex-nonprod"
 }
 
 resource "azurerm_resource_group" "example" {
